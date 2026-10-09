@@ -1,24 +1,22 @@
 NEXUSEVOLUX — SITE ESTÁTICO
 
-Ficheiros:
+Ficheiros principais:
 - index.html: conteúdo e estrutura do site
-- styles.css: design responsivo e animações
-- script.js: menu, efeitos de scroll e configuração do WhatsApp
-- assets/: guardar aqui o logótipo original quando estiver disponível
+- estilos.css: design, layout e animações visuais
+- script.js: menu móvel e animações de entrada
 
-ANTES DE PUBLICAR
-1. O símbolo NE atual é temporário. Substitui-o pelo logótipo original quando conseguires enviar o ficheiro. O logótipo original não foi redesenhado.
-2. Abre script.js e troca SUBSTITUIR_PELO_TEU_NUMERO pelo teu número WhatsApp com indicativo do país, apenas dígitos (ex.: formato 2449XXXXXXXX).
-3. Confirma o email contacto@nexusevolux.com no index.html. É provisório.
-4. Os três projetos na secção Portfólio são conceitos demonstrativos, não clientes reais. Mantém essa indicação ou substitui por projetos reais.
-5. O formulário ainda não está ligado a um serviço de envio. O contacto está preparado para WhatsApp e email.
+CONTACTOS CONFIGURADOS:
+- WhatsApp: https://wa.me/244952037432
+- E-mail: mailto:nexusevolux@gmail.com
+- Demonstração Casa Mwana: https://casa-mwana-demo.netlify.app
 
-PUBLICAR COM GITHUB + NETLIFY
-1. Descompacta o ZIP.
-2. No GitHub, cria um repositório chamado nexusevolux-site.
-3. Envia index.html, styles.css, script.js, README.txt e a pasta assets.
-4. Na Netlify, escolhe Add new site / Import an existing project e liga a conta GitHub.
-5. Escolhe o repositório. Este é um site estático: não precisa de build command. Define o diretório de publicação como . (raiz do repositório), se solicitado.
-6. Publica e testa no telemóvel.
+PUBLICAÇÃO NO NETLIFY:
+1. Envie index.html, estilos.css, script.js e README.txt para a raiz do repositório GitHub.
+2. O nome do CSS tem de permanecer exatamente estilos.css.
+3. Para HTML estático, deixe o build command vazio e use publish directory "." (raiz do projeto).
+4. Se o Netlify estiver ligado ao GitHub, o commit no branch principal deverá iniciar uma nova publicação.
 
-O domínio personalizado é opcional e configura-se depois. O site usa HTML, CSS e JavaScript simples; não precisa de npm nem compilação. A fonte visual é carregada do Google Fonts, com fontes alternativas se estiver offline.
+NOTAS:
+- FORM/LAB e Casa Mwana são apresentados como conceitos de portfólio, não como clientes confirmados.
+- O endereço do WhatsApp e o e-mail já estão configurados nos botões de contacto.
+- Este projeto não necessita de instalar dependências ou executar um build.
